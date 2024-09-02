@@ -1,0 +1,17 @@
+digraph "write_triangles_vtk"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="write_triangles_vtk",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="sampled_cspace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#aed08f5587c0034df7b6b210a92df7ef3",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Part::triangulate_3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#ad09fc183848b2fd66b1d2e02cdea08c2",tooltip=" "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="triangulate_patch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#aca3072db137030b4e74733c5a2f0b46f",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="triangulate_patches",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#af247c0f3c7aca552fa7c1766b0df3a5e",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

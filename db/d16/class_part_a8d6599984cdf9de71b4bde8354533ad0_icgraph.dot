@@ -1,0 +1,18 @@
+digraph "Part::read_sgroup"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Part::read_sgroup",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Part::read_boundary",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#af98073011a0906ca68dac3420caadbbd",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Part::read_slice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#a7f1594b15432b51a669bf812dd8f9c13",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Part::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#a4ac3eac5a262d5ea40d7762370071ace",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="System::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d16/class_system.html#a70cb292ef3c419acba0075f5a5317672",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db2/hipair_8_c.html#a0ddf1224851353fc92bfbff6f499fa97",tooltip=" "];
+}

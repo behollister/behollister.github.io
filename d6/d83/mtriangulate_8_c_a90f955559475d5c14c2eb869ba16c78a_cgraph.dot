@@ -1,0 +1,16 @@
+digraph "handle_merge"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="handle_merge",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="check_diagonal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d83/mtriangulate_8_c.html#a2f65d7c276ad04c7aac240e8f2231634",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PVertex::type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d06/class_p_vertex.html#a3c0f16ac9ddf54c3d3ff225d31ab16b6",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="signedArea",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d00/point_8_c.html#ac3461a08db55ea6d28a406f79a317cbd",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="find_left",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d83/mtriangulate_8_c.html#ab6752c1a41d2c11d99767d6c7da24277",tooltip=" "];
+}

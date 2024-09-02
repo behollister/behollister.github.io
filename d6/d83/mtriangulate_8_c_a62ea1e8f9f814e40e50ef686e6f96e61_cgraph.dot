@@ -1,0 +1,10 @@
+digraph "handle_split"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="handle_split",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="find_left",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d83/mtriangulate_8_c.html#ab6752c1a41d2c11d99767d6c7da24277",tooltip=" "];
+}

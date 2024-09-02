@@ -1,0 +1,27 @@
+var class_edge =
+[
+    [ "Edge", "d7/d77/class_edge.html#a01eedf29a091cb74c39638d5fe67f215", null ],
+    [ "above_point", "d7/d77/class_edge.html#aa30a03322dbebe56f7909208d3cc0058", null ],
+    [ "bounding_box", "d7/d77/class_edge.html#a99814ade61cfffcbaa7a3401eff8cbaa", null ],
+    [ "contains", "d7/d77/class_edge.html#ae3c78512f638f69caf26a457cb21d3eb", null ],
+    [ "discretize", "d7/d77/class_edge.html#af903a7c6e743dfe70e0e0894386706dc", null ],
+    [ "inc", "d7/d77/class_edge.html#ab85c073eb1fdcb27672987081d163e9e", null ],
+    [ "loop_length", "d7/d77/class_edge.html#a301b019059f5d96895f9c11f7dd6400a", null ],
+    [ "null_loop", "d7/d77/class_edge.html#a78ade33b6527ad856815cce871f58fd5", null ],
+    [ "operator<", "d7/d77/class_edge.html#a95627c9df3a19898e5022cb919fef979", null ],
+    [ "rank", "d7/d77/class_edge.html#acf04af6a05d5d75e9c811fdf65c637cb", null ],
+    [ "restrict", "d7/d77/class_edge.html#ac6e8f80d6718a8beacebf48407e62efd", null ],
+    [ "set_heights", "d7/d77/class_edge.html#af9d04787786cc5329d3c3847941def39", null ],
+    [ "tiny", "d7/d77/class_edge.html#ab563c278b03cf98e750d08998412d6db", null ],
+    [ "above", "d7/d77/class_edge.html#a564972dd905c981969ebd91e67e7e688", null ],
+    [ "below", "d7/d77/class_edge.html#a2f7a79345deacf7819a3be70827def63", null ],
+    [ "face", "d7/d77/class_edge.html#adbdd55eda14d96db53bb08e6abaf212c", null ],
+    [ "h", "d7/d77/class_edge.html#a670bef3aed01114492fe1c12cad69c6f", null ],
+    [ "in", "d7/d77/class_edge.html#a0eb4d6356e2042a4126a9484f26a310f", null ],
+    [ "next", "d7/d77/class_edge.html#a263fc06c8809a9763b9c7246ce79cf4a", null ],
+    [ "ns", "d7/d77/class_edge.html#abb46dbc18e1c1e883c7c9b0d86764444", null ],
+    [ "segment", "d7/d77/class_edge.html#acf0d4ab3f5d4e6fa3d961b609996f4cc", null ],
+    [ "tail", "d7/d77/class_edge.html#ae96f9003c88287c6dedad23f0e75ce8e", null ],
+    [ "traversed", "d7/d77/class_edge.html#ad536412c6ef534ec280e6f7381027a2d", null ],
+    [ "twin", "d7/d77/class_edge.html#a4b1c131507ae70dd5fef2dc27d1218fc", null ]
+];

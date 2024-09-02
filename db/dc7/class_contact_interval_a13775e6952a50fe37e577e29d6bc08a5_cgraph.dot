@@ -1,0 +1,33 @@
+digraph "ContactInterval::intersect"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ContactInterval::intersect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ContactInterval::Contact\lInterval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dc7/class_contact_interval.html#a61ad4ab72d3949946605438d215f8efd",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ContactInterval::contains",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dc7/class_contact_interval.html#ae292421ddf64010db43bdcddf61897c3",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="domain_order",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d39/cs_8_c.html#a73d227d9566521f052b4763c4dd77d76",tooltip=" "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="in_arc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d39/cs_8_c.html#aa11ddde06a3d235fc35c23b35b26ea37",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="intersect_ep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d39/cs_8_c.html#ae42e3b7bbc3eedff1fbbeb0aa29b8739",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ContactInterval::simple\l_intervals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dc7/class_contact_interval.html#ad6748c3c88491fc8250f7e83bdc37067",tooltip=" "];
+  Node7 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="domain_point",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d39/cs_8_c.html#ae19052e7a9cfc6c18f3655365cc30478",tooltip=" "];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="simple_interval",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d39/cs_8_c.html#a289685842ca27c2f7341e0079ea456c2",tooltip=" "];
+  Node9 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ContactInterval::simple\l_intervals_g",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dc7/class_contact_interval.html#ae8382969ca67f35c8a42eaca177fdc18",tooltip=" "];
+  Node10 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ContactFunction::y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d41/class_contact_function.html#ab8260d054902416d81cb2f04c120edc4",tooltip=" "];
+  Node11 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

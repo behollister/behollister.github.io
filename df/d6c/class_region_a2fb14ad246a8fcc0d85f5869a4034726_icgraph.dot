@@ -1,0 +1,10 @@
+digraph "Region::ray_intersection"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Region::ray_intersection",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Pair::next_event",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d49/class_pair.html#ad7ea6910aa819052a38864cc6fb86bcd",tooltip=" "];
+}

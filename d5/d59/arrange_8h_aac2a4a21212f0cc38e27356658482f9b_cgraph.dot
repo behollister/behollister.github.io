@@ -1,0 +1,25 @@
+digraph "write_segments2"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="write_segments2",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Segment::discretize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a9edcea6bad505fddc1eade4c6bedc563",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Segment::discretize\l_circle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#ae75a65d3f2797e0736ef80616b971089",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Segment::y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a1bf3d6f2d733f66b849250bc68f0dbc3",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="line_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d11/arrange_8_c.html#a6f496b0506cabd24271f356eb9a2921e",tooltip=" "];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Segment::discretize\l_pline",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#aceb2d23add992b0320bf6c0c4285e51c",tooltip=" "];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Segment::vertical",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a0a797f22653998e4365948276c12db6c",tooltip=" "];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Segment::head",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a0e17bae2b8a9ce347fc0f39dbd485ab0",tooltip=" "];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Segment::tail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#ade98cc7f373aef9c1f6371b028c1ceed",tooltip=" "];
+}

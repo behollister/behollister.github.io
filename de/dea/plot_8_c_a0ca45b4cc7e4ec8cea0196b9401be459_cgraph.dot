@@ -1,0 +1,38 @@
+digraph "mouse"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="mouse",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="mouse_config",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a0fb066f479ab3b59fc3a03ad60f2f73a",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="get_window",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#ab86e1d5f2a97ddbadc85b26017fc1464",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="pp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d11/arrange_8_c.html#ab651de1ff5f6582055d2ea11002c5db1",tooltip=" "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="mouse_path",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a9dfcfeac9a4ff6a970e4f0aa6b79400a",tooltip=" "];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Pair::path",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d49/class_pair.html#a24ad3a21451a5c8a61ec91f9bbaef4d5",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Pair::enclosing_region",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d49/class_pair.html#ac4486f844217924898cb7d34f536cea4",tooltip=" "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Region::path",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d6c/class_region.html#a944dea943cdaa7b9bf7f38fe88d62f5f",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Region::contains",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d6c/class_region.html#ac9dea406246956c3821bcea2544dda6a",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Region::ray_intersections",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d6c/class_region.html#a651358fb7bf2d65c3e6b185e5bfbb4b8",tooltip=" "];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="ray_boundary_intersections",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d25/region_8_c.html#a1194f4cdf0df8ec67b82a1012877842e",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="ray_line_intersection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d25/region_8_c.html#a11a537f16776531c70aadc485a3ba2c7",tooltip=" "];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="mouse_zoom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#aca649631b77a58aa8a4798eeef44de1f",tooltip=" "];
+  Node13 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="point",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a57861a5d95b9807c84f6163daaab71fd",tooltip=" "];
+  Node14 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

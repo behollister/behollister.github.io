@@ -1,0 +1,16 @@
+digraph "Feature::contact"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Feature::contact",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Feature::contact_cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d76/class_feature.html#a3b7421201888e6259d53d89898bfda80",tooltip=" "];
+  Node2 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Feature::contact_cl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d76/class_feature.html#a91f0726e230b3e101f5f5ba0d75dc7bc",tooltip=" "];
+  Node3 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Feature::line_equation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d76/class_feature.html#acb1e9d500c75d6ac02b18e2ea5b07806",tooltip=" "];
+}

@@ -1,0 +1,56 @@
+digraph "contains"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="contains",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Arrangement::enclosing_face",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d46/class_arrangement.html#ac592f329c92178494b2c1c5e82ca29d6",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Arrangement::form_faces\l_vertex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d46/class_arrangement.html#a7cdd5c55ae34d0f0c4cec7962629c4d6",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Arrangement::form_faces",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d46/class_arrangement.html#a4a4e0faf951ffd402c51b37ee383c0f2",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Arrangement::arrange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d46/class_arrangement.html#aa48e67ecbf171616e989d936e221a4e1",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="arrange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d11/arrange_8_c.html#a8f0f410db8738d9121c7b0a2629abd5d",tooltip=" "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="complement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a26844aaf5673452ccde61452e2431248",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="PsView::draw_cspace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/db7/class_ps_view.html#a621785387236f306cefb7ebfe97cc2fc",tooltip=" "];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Pair::form_czone",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d49/class_pair.html#ac6b9ee78ab752f31b84380f43fcc2d09",tooltip=" "];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="triangulate_fa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#acd7f2d5bae088bcd36199a667b870764",tooltip=" "];
+  Node6 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Part::cspace_slice",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#aa13a2e3545f09854a75612909db0fe3d",tooltip=" "];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Part::cspace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#a9c2bd794a4a3973f19399344f44ad7dc",tooltip=" "];
+  Node12 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="form_pair",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a327c62f0ea1caf8972a3ec36efa06d6d",tooltip=" "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="System::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d16/class_system.html#a70cb292ef3c419acba0075f5a5317672",tooltip=" "];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db2/hipair_8_c.html#a0ddf1224851353fc92bfbff6f499fa97",tooltip=" "];
+  Node12 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="sampled_cspace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#aed08f5587c0034df7b6b210a92df7ef3",tooltip=" "];
+  Node12 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="sliced_cspace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a586f2871b7d3ca2f661d636e3aadf286",tooltip=" "];
+  Node12 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="intersection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#abc261e01d8f1e11eebaa933f9f6890ab",tooltip=" "];
+  Node18 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="minimal_inconsistent\l_set_aux",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d11/arrange_8_c.html#a43321ea565c26429249c2589bd830055",tooltip=" "];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="minimal_inconsistent_set",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d11/arrange_8_c.html#a28f76b567834648d2fc19f5fe2802651",tooltip=" "];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="Part::overlap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#afaebfd8f7c84e180ce99b2c188b8e28f",tooltip=" "];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="Part::form_regions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#a7b802302c9299086aa98cc314fed33d0",tooltip=" "];
+  Node22 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

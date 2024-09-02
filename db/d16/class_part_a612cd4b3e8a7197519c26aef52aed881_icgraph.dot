@@ -1,0 +1,12 @@
+digraph "Part::form_profiles"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="Part::form_profiles",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="PsView::draw_part",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/db7/class_ps_view.html#af61f2238da4909314b22054e87317513",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PsView::draw_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/db7/class_ps_view.html#a8354fa56e4a241f2a8f0264b64b64a60",tooltip=" "];
+}

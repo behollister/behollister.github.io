@@ -1,0 +1,26 @@
+digraph "Pair::next_event"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Pair::next_event",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Pair::contact_segment",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d49/class_pair.html#ab7a627f2ea1c46b1012712f48b16f531",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Region::distance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d6c/class_region.html#ab5287df366088be5b55aeb7efe55cc98",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="point_boundary_distance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d25/region_8_c.html#afeebcec2bdc78d8733906ac0e1d8b1d4",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="point_segment_distance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d25/region_8_c.html#a15c3f2a1984c4c7a4092267a955b2e02",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Point::dist2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#af0d38b672cdc96e6046c048db1e1f7ed",tooltip=" "];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Region::ray_intersection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d6c/class_region.html#a2fb14ad246a8fcc0d85f5869a4034726",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Region::ray_intersections",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d6c/class_region.html#a651358fb7bf2d65c3e6b185e5bfbb4b8",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="ray_boundary_intersections",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d25/region_8_c.html#a1194f4cdf0df8ec67b82a1012877842e",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ray_line_intersection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d25/region_8_c.html#a11a537f16776531c70aadc485a3ba2c7",tooltip=" "];
+}

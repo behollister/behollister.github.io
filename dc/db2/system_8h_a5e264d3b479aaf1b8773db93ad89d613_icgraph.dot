@@ -1,0 +1,24 @@
+digraph "resample"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="resample",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="triangulate_strip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a49268a9394e3d02ad87b074509075acb",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="sampled_cspace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#aed08f5587c0034df7b6b210a92df7ef3",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="triangulate_patch_aa_aux",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a18e735fdce69e5a2c9ad53855e4f3a67",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="triangulate_patch_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#adb0daf493d0efd846d00b467be3be6be",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="triangulate_patch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a7ae26838dc3dbed96a42b5890a96725b",tooltip=" "];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="triangulate_patch_al",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a70fb68249e675197d9bb29bddbe0cd53",tooltip=" "];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="triangulate_patch_la",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a6139aa9001df9395b2266a56e68546b7",tooltip=" "];
+  Node8 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

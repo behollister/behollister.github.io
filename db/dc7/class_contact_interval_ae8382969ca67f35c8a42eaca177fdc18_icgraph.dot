@@ -1,0 +1,14 @@
+digraph "ContactInterval::simple_intervals_g"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="ContactInterval::simple\l_intervals_g",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ContactInterval::intersect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dc7/class_contact_interval.html#a13775e6952a50fe37e577e29d6bc08a5",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ContactInterval::intersect_g",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dc7/class_contact_interval.html#acb346d61652e3c2fed7053be5a6c45d4",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="ContactInterval::intersect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dc7/class_contact_interval.html#ac68cd7bc06b128dea467cb83b05d8b7b",tooltip=" "];
+}

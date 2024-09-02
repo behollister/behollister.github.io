@@ -1,0 +1,16 @@
+digraph "PsView::draw_profile"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PsView::draw_profile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="PsView::polygon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/db7/class_ps_view.html#a1477cc980d9d2d7ae384e051023f5aff",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="PsView::close",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/db7/class_ps_view.html#a2a49161897a2571c15f9bf893d2c2524",tooltip=" "];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PsView::scale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/db7/class_ps_view.html#a1522bef45bf5601fd6a65b39b40fe934",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PsView::setprops",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/db7/class_ps_view.html#a19dbc7e564bf2e9ed2f167e7c2a04a0f",tooltip=" "];
+}

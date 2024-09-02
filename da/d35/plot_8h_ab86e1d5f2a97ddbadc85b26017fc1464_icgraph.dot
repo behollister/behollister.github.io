@@ -1,0 +1,53 @@
+digraph "get_window"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="get_window",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="keyboard",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#aef7ba2f69afb2d954545f64c7fe24b14",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="graphics_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a847d6a7fbc77c4a90f8501f03bc508c2",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db2/hipair_8_c.html#a0ddf1224851353fc92bfbff6f499fa97",tooltip=" "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a871fd9424d4b79de811be617326020b0",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="menu_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a825deebad1aa530657673fb8a95a2565",tooltip=" "];
+  Node6 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="mouse_config",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a0fb066f479ab3b59fc3a03ad60f2f73a",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="mouse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a0ca45b4cc7e4ec8cea0196b9401be459",tooltip=" "];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="mouse_path",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a9dfcfeac9a4ff6a970e4f0aa6b79400a",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="mouse_zoom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#aca649631b77a58aa8a4798eeef44de1f",tooltip=" "];
+  Node10 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="point",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a57861a5d95b9807c84f6163daaab71fd",tooltip=" "];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="motion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a45a7d7c86c97ca6a2d4d32ce2d263f67",tooltip=" "];
+  Node12 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="System::read_motions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d16/class_system.html#a456cc303e9082a2a789959307db9a05a",tooltip=" "];
+  Node13 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="System::set_velocity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d16/class_system.html#aefe7e5dcae60ebb8dfe7d0d39bc94515",tooltip=" "];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="System::set_velocity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d16/class_system.html#aba796bc4eef149522f7813143cb406e5",tooltip=" "];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="System::simulate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d16/class_system.html#ab0bfdc12f2ba78cd0a4f29abc80602c0",tooltip=" "];
+  Node16 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="postscript_window",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#ab5b10a5fedbe45086fc477bc73f03015",tooltip=" "];
+  Node17 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="reshape",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#acc1ffe65e6869931318610cae7210078",tooltip=" "];
+  Node18 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

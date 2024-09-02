@@ -1,0 +1,49 @@
+digraph "Segment::rootlist_ll"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Segment::rootlist_ll",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Segment::below",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#adc44386683766560ee602eb36ed109a8",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Segment::rootlist",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#aec86a160c8dc91878669b37247af69c3",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Segment::rootlist_g",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#ac35efa02de1a9a42ec3a5e1600253f89",tooltip=" "];
+  Node4 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Segment::dy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a8fcbe9d1264d0df68faa7e817757fd11",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Segment::y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a1bf3d6f2d733f66b849250bc68f0dbc3",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="line_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d11/arrange_8_c.html#a6f496b0506cabd24271f356eb9a2921e",tooltip=" "];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Segment::intersection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#aecb00250db12b03c20e672ebd8644b96",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Segment::intersection_cc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a8263429190593d0cd5f581dc63c36ee7",tooltip=" "];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="circle_intersections",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d11/arrange_8_c.html#a043ee172acd7f5a71489cdc610bdc0b4",tooltip=" "];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Segment::intersection_cl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a02acf3d685aebe72d61ff1dd07113bd1",tooltip=" "];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="circle_line_intersections",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d11/arrange_8_c.html#ace0a3ae8d5ecbd78b3f0172f004f0a9f",tooltip=" "];
+  Node8 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Segment::intersection_ll",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a228e875ed2160169de980dde2f68dc76",tooltip=" "];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="line_intersection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d11/arrange_8_c.html#a62c6d133cf66d38e3d773f3aa4f0c2da",tooltip=" "];
+  Node4 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Segment::lb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#afab334407697698cf4bf65e8cadac7d2",tooltip=" "];
+  Node4 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Segment::ub",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a4e9a06ff1ff8ed2084550147a96ecf4b",tooltip=" "];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Segment::ymax",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a7dd8fda28abda59ebf4fb5191ff31db2",tooltip=" "];
+  Node17 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="Segment::ymin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#aca7e983815a74b9388062992844ff43b",tooltip=" "];
+  Node18 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

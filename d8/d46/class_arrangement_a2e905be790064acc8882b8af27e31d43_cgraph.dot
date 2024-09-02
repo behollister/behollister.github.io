@@ -1,0 +1,15 @@
+digraph "Arrangement::adjust_endpoint"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Arrangement::adjust\l_endpoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Arrangement::adjust\l_endpoint1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d46/class_arrangement.html#a5406f226c76fad8ebef925c83f22a546",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Arrangement::split_edge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d46/class_arrangement.html#af090927418e5c497487b44994e767763",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Arrangement::adjust\l_endpoint2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d46/class_arrangement.html#acc611ee7e97d98e4700383a4001b81a2",tooltip=" "];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

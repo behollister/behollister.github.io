@@ -1,0 +1,26 @@
+digraph "clear_screen"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="clear_screen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="draw_cspace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a316ff9f70f0c2e63e2d6c5bbdf8d146a",tooltip=" "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="display_cspace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a84125b064e20f72dfb3d1e3c10fb00bc",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="display",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a1e5b20fed15743656bb6d2e6a6ea6269",tooltip=" "];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="graphics_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a847d6a7fbc77c4a90f8501f03bc508c2",tooltip=" "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db2/hipair_8_c.html#a0ddf1224851353fc92bfbff6f499fa97",tooltip=" "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="draw_path",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a328c65c9d83532218a29de873a899ec0",tooltip=" "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="display_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a42af89e8bcdc3d1dadfb9834d27de23b",tooltip=" "];
+  Node8 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="draw_system",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dea/plot_8_c.html#a5f72991813254a5fd45b0b3099c754e2",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

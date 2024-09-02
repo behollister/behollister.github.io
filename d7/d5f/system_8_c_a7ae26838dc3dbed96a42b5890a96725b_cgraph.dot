@@ -1,0 +1,56 @@
+digraph "triangulate_patch"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="triangulate_patch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="triangulate_patch_aa",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#adb0daf493d0efd846d00b467be3be6be",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Feature::split",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d76/class_feature.html#ac271e51b5f016e6b334bd7cddaf622c0",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Feature::full_circle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d76/class_feature.html#aa646edd96e2330b819223abe501dd9d0",tooltip=" "];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Angle::inv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d39/class_angle.html#a89ceb8b5a8875a955f2b7b3f9397f5a1",tooltip=" "];
+  Node3 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Angle::midpoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d39/class_angle.html#ae629906afe7b1653d224d953c857495a",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Angle::Angle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d39/class_angle.html#aca3c6e1519b40835d31736430ca082a9",tooltip=" "];
+  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="triangulate_patch_aa_aux",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a18e735fdce69e5a2c9ad53855e4f3a67",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Feature::aa_r",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d76/class_feature.html#a83bb82ac301bec8550a7adaf49bd15f6",tooltip=" "];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Angle::angle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d39/class_angle.html#aeaf5fb65710c144ceed0a9105347af3c",tooltip=" "];
+  Node8 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Feature::discretize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d76/class_feature.html#a113fad92250ae37d9981479b8748e2d6",tooltip=" "];
+  Node11 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="mod_pi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d39/cs_8_c.html#acbffffcb40f86b2239411252d8d40ff5",tooltip=" "];
+  Node8 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Angle::in_arc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d39/class_angle.html#a9bfaea5dfe9608a7588b0a061f989b6c",tooltip=" "];
+  Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="triangulate_strip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a49268a9394e3d02ad87b074509075acb",tooltip=" "];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="add_point_3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a3e8494501350689592901382a4e21591",tooltip=" "];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="resample",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a5e264d3b479aaf1b8773db93ad89d613",tooltip=" "];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="Point::distance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#acc3058eeeacca7bab08c0c893ff4af2a",tooltip=" "];
+  Node1 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="triangulate_patch_al",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a70fb68249e675197d9bb29bddbe0cd53",tooltip=" "];
+  Node18 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="triangulate_patch_la",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a6139aa9001df9395b2266a56e68546b7",tooltip=" "];
+  Node19 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

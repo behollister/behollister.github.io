@@ -1,0 +1,21 @@
+digraph "Part::form_bbox"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Part::form_bbox",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Part::form_bbox_rt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#a1145fc11374252d233a0cf9d979226d0",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Part::rot_radius",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#a9fa4e0d3894d91faabca8018c8f806e2",tooltip=" "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Point::norm",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d69/class_point.html#a1de1fcf72ec8d46bf347fd2cde72cc0d",tooltip=" "];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Part::x_range",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#a1bde9e44c4b66938838e75a654c529d5",tooltip=" "];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Part::form_bbox_tt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#adad608e8915dc008798090f9bbf58dcd",tooltip=" "];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Part::y_range",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#a432687c5ffe7c557fd27633cdb2f2847",tooltip=" "];
+}

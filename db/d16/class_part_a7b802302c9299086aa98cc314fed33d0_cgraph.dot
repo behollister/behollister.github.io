@@ -1,0 +1,56 @@
+digraph "Part::form_regions"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Part::form_regions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Region::area",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d6c/class_region.html#ab694b0cf7e7ce0eb31b2d8b93201b6b9",tooltip=" "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="signedArea",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d00/point_8_c.html#ac3461a08db55ea6d28a406f79a317cbd",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Face::discretize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2a/class_face.html#a0ff0e0b604821fb1350646a46f7b34e5",tooltip=" "];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Edge::discretize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d77/class_edge.html#af903a7c6e743dfe70e0e0894386706dc",tooltip=" "];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Segment::discretize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a9edcea6bad505fddc1eade4c6bedc563",tooltip=" "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Segment::discretize\l_circle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#ae75a65d3f2797e0736ef80616b971089",tooltip=" "];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Segment::y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a1bf3d6f2d733f66b849250bc68f0dbc3",tooltip=" "];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="line_y",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d11/arrange_8_c.html#a6f496b0506cabd24271f356eb9a2921e",tooltip=" "];
+  Node6 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Segment::discretize\l_pline",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#aceb2d23add992b0320bf6c0c4285e51c",tooltip=" "];
+  Node10 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Segment::vertical",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dd2/class_segment.html#a0a797f22653998e4365948276c12db6c",tooltip=" "];
+  Node5 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Edge::inc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d77/class_edge.html#ab85c073eb1fdcb27672987081d163e9e",tooltip=" "];
+  Node5 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Region::interior_point",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d6c/class_region.html#adefc4eeb2fc71edce16765fadb188f54",tooltip=" "];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Angle::midpoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d39/class_angle.html#ae629906afe7b1653d224d953c857495a",tooltip=" "];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="Angle::Angle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d39/class_angle.html#aca3c6e1519b40835d31736430ca082a9",tooltip=" "];
+  Node13 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="Region::ray_intersections",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d6c/class_region.html#a651358fb7bf2d65c3e6b185e5bfbb4b8",tooltip=" "];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="ray_boundary_intersections",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d25/region_8_c.html#a1194f4cdf0df8ec67b82a1012877842e",tooltip=" "];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="ray_line_intersection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d25/region_8_c.html#a11a537f16776531c70aadc485a3ba2c7",tooltip=" "];
+  Node1 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Part::overlap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#afaebfd8f7c84e180ce99b2c188b8e28f",tooltip=" "];
+  Node19 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="contains",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d5f/system_8_c.html#a7d7ac1def01662e67c5442394bdd3bb0",tooltip=" "];
+  Node19 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="delete_boundary",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d39/cs_8_c.html#a66b6d7092280f6a0a04a6bc54b66b4d5",tooltip=" "];
+  Node19 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="Part::move",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#a1fbba83080bd14d2f5918a69067eccd3",tooltip=" "];
+  Node22 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="Part::Part",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d16/class_part.html#abbcb46357cb81167473b1baee9c2d2e0",tooltip=" "];
+  Node1 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="Arrangement::set_crossing\l_numbers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d46/class_arrangement.html#ac8aba3d8b28ba91cc00caaceac51d010",tooltip=" "];
+}

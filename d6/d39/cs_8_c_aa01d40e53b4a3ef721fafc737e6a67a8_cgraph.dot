@@ -1,0 +1,14 @@
+digraph "tlta_contacts"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="tlta_contacts",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Angle::in_arc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d39/class_angle.html#a9bfaea5dfe9608a7588b0a061f989b6c",tooltip=" "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Angle::inv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d39/class_angle.html#a89ceb8b5a8875a955f2b7b3f9397f5a1",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Feature::point",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d76/class_feature.html#abcba67e3bc6674faa74c8095cb4dde8a",tooltip=" "];
+}
